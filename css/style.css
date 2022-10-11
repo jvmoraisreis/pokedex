@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    height: 100;
+}
+
+body {
+    background-color:rgb(0, 0, 0);
+    font-family: arial,sans-serif;
+}
+
+img{
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    margin-bottom: 2rem;
+    
+}
+
+
+header, footer{
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top:3rem;
+}
+
+#poke-card {
+    margin: auto; 
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.856);
+    height: fit-content;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#name{
+    padding: 1rem;
+}
+
+#name::first-letter {
+    text-transform: uppercase;
+}
+
+#pic{
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    height: 8rem;
+    width: 6rem;
+   
+}
+
+input {
+    color: rgb(23, 26, 26);
+    border: none;
+    width: 30%;
+    border-radius: 20%;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+button{
+    color: white;
+    padding: 0.3rem;
+    border-radius: 10%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.829);
+    margin-left: 0.7rem;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(161, 161, 187);
+}
+
