@@ -6,20 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicons/favicon-16x16.png" type="image/x-icon">
     
-    <title>Pokedex</title>
+    <title>Pokédex</title>
 </head>
+
 <body>
     <header>
         <img src="img/logo.png" alt="Pokémon">
         <input id="pesquisar" type="text" placeholder="Digite o nome ou número do Pokémon">
         <button onclick="pesquisar()"><i class='fa-solid fa-magnifying-glass'></i></button>
     </header>
-    <div id="poke-card">
-        <h2 id="name">Charizard </h2>
-        <img id="pic" src="img/charizard.gif" alt="imagem do pokemon">
-        <p id="desc"></p>
-    </div>
+
+    <main>
+        <div id="previous">
+            <button id="arrow" onclick="anterior()"><i id ='btn-next-icon'class="fa-solid fa-arrow-left"></i></button>
+        </div>
+        <div id="poke-card">
+            <h2 id="name">Charizard </h2>
+            <img id="pic" src="img/charizard.gif" alt="imagem do pokemon">
+            <p id="desc"></p>
+        </div>
+        <div id="next">
+            <button id="arrow" onclick="proximo()"><i id ='btn-next-icon'class="fa-solid fa-arrow-right" ></i></button>
+        </div>
+    </main>
+
     <footer>
         <span>Desenvolvido por João Victor Morais</span>
     </footer>
